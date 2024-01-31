@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <title>Digital customer onboarding</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+  <!-- Additional CSS Files -->
+  <link rel="stylesheet" href="assets/css/fontawesome.css">
+  <link rel="stylesheet" href="assets/css/templatemo-digimedia-v3.css">
+  <link rel="stylesheet" href="assets/css/animated.css">
+  <link rel="stylesheet" href="assets/css/owl.css">
+  <link rel="stylesheet" href="assets/css/hp3.css">
+  <!--
+
+TemplateMo 568 DigiMedia
+
+https://templatemo.com/tm-568-digimedia
+
+-->
+<!--upload import-->
+
+
+<style>
+  
+  .buttons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      color: #ffffff;
+      cursor: pointer;
+    }
+
+    .previous-btn {
+      background-color: #007bff;
+      margin-right: 10px;
+    }
+
+    .previous-btn:hover {
+      background-color: #0056b3;
+    }
+
+    .save-next-btn {
+      background-color: #007bff;
+      margin-left: 10px;
+    }
+
+    .save-next-btn:hover {
+      background-color: #0056b3;
+    }
+    
+    .file-upload input[type='file'] {
+  display: none;
+}
+
+
+.rounded-lg {
+  border-radius: 1rem;
+}
+
+.custom-file-label.rounded-pill {
+  border-radius: 50rem;
+}
+
+.custom-file-label.rounded-pill::after {
+  border-radius: 0 50rem 50rem 0;
+}
+    
+
+    
+</style>
+
+</head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="index.html" class="logo">
+              <img src="assets/images/logo.svg" width="70px" height="70px" alt="">
+            </a>
+            <!-- ***** Logo End ***** -->
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <li class="scroll-to-section"><a href="./homepage_1.html">Home</a></li>
+              <!-- <li class="scroll-to-section"><a href="#about">About</a></li>
+              <li class="scroll-to-section"><a href="#services">Process</a></li>
+              <li class="scroll-to-section"><a href="#portfolio">Product</a></li> -->
+              <!-- <li class="scroll-to-section"><a href="#blog">Register</a></li>
+              <li class="scroll-to-section"><a href="#contact">Contact</a></li>  -->
+              <li class="scroll-to-section"><div class="border-first-button"><a href="#contact">Log out</a></div></li> 
+            </ul>        
+            <a class='menu-trigger'>
+                <span>Menu</span>
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area end ***** -->
+
+
+  <!-- progress bar -->
+  <section class="step-wizard">
+    
+    <ul class="step-wizard-list ">
+      
+      <li class="step-wizard-item ">
+        <span class="progress-count">1</span>
+        <span class="progress-label">Step-1<br>Personal details</span>
+      </li>
+      <li class="step-wizard-item">
+        <span class="progress-count">2</span>
+        <span class="progress-label">Step-2<br>Email Verification</span>
+      </li>
+      <li class="step-wizard-item">
+        <span class="progress-count">3</span>
+        <span class="progress-label">Step-3<br>Tel. Verification</span>
+      </li>
+      <li class="step-wizard-item current-item">
+        <span class="progress-count">4</span>
+        <span class="progress-label">Step-4<br>Identity proof</span>
+      </li>
+      <li class="step-wizard-item">
+        <span class="progress-count">5</span>
+        <span class="progress-label">Step-5<br>Address proof</span>
+      </li>
+
+    </ul>
+
+  </section>
+ <!--Upload Aadharcard-->
+ <section>
+  <div class="container p-5">
+  
+    <div class="row mb-5 text-center text-white">
+      <div class="col-lg-10 mx-auto">
+        <h1 class="display-4">File upload button </h1>
+        <p class="lead">Click the upload button below to upload image of your aadhar card</p>
+      </div>
+    </div>
+
+
+
+    <div class="row">
+      <div class="col-lg-5 mx-auto">
+        <div class="p-5 bg-white shadow rounded-lg"><img src="./assets/images/identity.png" alt="" width="50"  >
+
+          
+          <label for="fileUpload" class="file-upload btn btn-primary btn-block rounded-pill shadow"><i class="fa fa-upload mr-2"></i>Browse for file ...
+                        <input id="fileUpload" type="file">
+                    </label>
+         
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <div class=" my-5 buttons">
+    <button class="previous-btn"><a href="./step3.html" class="text-light">Previous</a></button>
+    <button class="save-next-btn"><a href="./step5.html" class="text-light">Save & Next</a></button>
+  </div>
+
+
+ 
+  
+
+
+  <!-- <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <p>Copyright © 2022 DigiMedia Co., Ltd. All Rights Reserved.
+            <br>Design: <a href="https://templatemo.com" target="_parent" title="free css templates">TemplateMo</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer> -->
+
+
+  <!-- Scripts -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/animation.js"></script>
+  <script src="assets/js/imagesloaded.js"></script>
+  <script src="assets/js/custom.js"></script>
+
+</body>
+
+</html>
